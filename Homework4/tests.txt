@@ -1,0 +1,3 @@
+I continously ran the tests given in the Homework assignment.
+I also created a test to check the delete function of myar.
+Testing helped alot especially in the -v option.

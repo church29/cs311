@@ -1,0 +1,12 @@
+starting program: /home/josh/Documents/cs311/Homework2/Problem8 
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00000000004004fb in func (ptr=0x0) at Problem8.c:10
+10          ptr[i] = i;
+(gdb) bt
+#0  0x00000000004004fb in func (ptr=0x0) at Problem8.c:10
+#1  0x000000000040052c in main (argc=1, argv=0x7fffffffe138) at Problem8.c:17
+(gdb) print ptr
+$1 = (int *) 0x0
+(gdb) print i
+$2 = 0
