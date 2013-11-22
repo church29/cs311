@@ -1,0 +1,6 @@
+A A A
+B B B
+C C C
+a&a*a
+b(b)b
+c1c2c
